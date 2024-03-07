@@ -1,0 +1,102 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #F1F6F9;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #212A3E;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #F1F6F9;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #212A3E;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl-a-biru {
+    background: #212A3E;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #F1F6F9;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container {
+    width: 960px;
+    margin: 50px auto;
+    background-color: #FFFFFF;
+}
+
+.header {
+    padding: 50px;
+}
+
+.header p {
+    margin-top: 10px;
+}
+
+.perekonomian {
+    height: fit-content;
+    background-image: url(perekonomiankuno.jpg);
+    background-size: cover;
+}
+
+.paragraf {
+    padding: 50px;
+}
+
+.paragraf p {
+    margin-top: 5px;
+}
